@@ -25,7 +25,7 @@ data = {
 
 df = pd.DataFrame(data)
 df.to_csv("sample_data.csv")
-st.write(f"Here is a simple dataframe:{df}")
+st.write(df)
 
 # Upload Button
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
